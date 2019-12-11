@@ -1,0 +1,1 @@
+python -m i3d.evaluate_hantman --filelist /nrs/branson/kwaki/data/lists/feature_gen/list1.txt --gpus 1 --batch_size 10 --window_size 64 --window_start -31 --movie_dir "/nrs/branson/kwaki/data/videos/hantman_flow/" --out_dir "/nrs/branson/kwaki/data/test" --feat_key "canned_i3d_moo" --eval_type flow

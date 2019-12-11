@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+    font-family: Monospace;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+#container {
+    position: relative;
+    left: 0px;
+    top 0px;
+}
+
+#box_2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #a1a1a1;
+    z-index: 2;
+    visibility: hidden;
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+}
+
+#select-marquee {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: 50;
+    height: 0px;
+    width: 10px;
+    background-color: rgba(208, 255, 242, 0.5);
+    border: dotted 1px #9a9a9a;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+}
+
+
+</style>
+
+<script data-main="js/embed" src="js/libs/require.js" data-type=2></script>
+
+<div id="container">
+    <div id="box_2"></div>
+</div>
+<div id="select-marquee"></div>
+

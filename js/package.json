@@ -1,0 +1,19 @@
+{
+    "name": "embeddingviewer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "latest",
+        "jquery": "latest",
+        "mongodb": "latest",
+        "body-parser": "latest",
+        "multer": "latest",
+        "react": "latest"
+    }
+}

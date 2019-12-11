@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- adapted from mbostock v4 area brush http://bl.ocks.org/mbostock/34f08d5e11952a80609169b7917d4172-->
+<meta charset="utf-8">
+<style>
+/*.axis--x path {
+    display: none;
+}*/
+
+body {
+  font: 10px sans-serif;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.zoom {
+    cursor: move;
+    fill: none;
+    pointer-events: all;
+}
+
+div.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 60px;          
+    height: 28px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;     
+    pointer-events: none;     
+}
+
+</style>
+
+<body>
+<script src="require.js"></script>
+<script>
+    require.config({
+        paths: {
+            d3: "https://d3js.org/d3.v4.min",
+            "d3-format": "https://d3js.org/d3-format.v1.min"
+        }
+    });
+    require(['predict_main'], function(app){
+        app.greet("predict_chew.csv");
+    });
+</script>
+</body>

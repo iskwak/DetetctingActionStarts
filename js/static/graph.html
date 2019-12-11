@@ -1,0 +1,26 @@
+<head>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="jquery.csv-0.71.min.js"></script>
+</head>
+
+<body>
+
+    <!--
+    <input type="button" id="btnSave" value="Save PNG"/>
+    <div id="img-out"></div>
+    -->
+    <div id="dvImportSegments" class="fileupload">
+        <fieldset>
+            <legend>Upload your CSV File</legend>
+            <input type="file" name="File Upload" id="txtFileUpload" accept=".csv" />
+        </fieldset>
+    </div>
+
+    <span id="widget" class="widget">
+        <div id="myDiv" style="width: 480px; height: 400px;"></div>
+    </span>
+
+    <script src=graph.js></script>
+</body>

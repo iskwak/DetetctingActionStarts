@@ -1,0 +1,1 @@
+/groups/branson/home/kwaki/checkouts/QuackNN/scripts/i3d/compute_flow/run_flow1.sh /groups/branson/bransonlab/kwaki/data/thumos14/lists/split_20/list_0.txt /scratch/kwaki/thumos14/ /groups/branson/bransonlab/kwaki/data/thumos14/flow_videos /groups/branson/bransonlab/kwaki/data/thumos14/lists/logs//proc_files_0.txt
