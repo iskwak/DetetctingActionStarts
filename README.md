@@ -5,7 +5,7 @@ This repository contains code to train and run the models described in: [Detecti
 ## Usage
 Run scripts in results_scripts folder
 ```
-./result_scripts/
+./result_run_scripts/hoghof_matching.sh
 ```
 
 
