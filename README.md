@@ -1,2 +1,29 @@
 # DetetctingActionStarts
-Detecting the starting frame of actions in video.
+## Overview
+This repository contains code to train and run the models described in: [Detecting the Starting Frame of Actions in Video](https://arxiv.org/abs/1906.03340).
+
+## Usage
+Run scripts in results_scripts folder
+```
+./result_scripts/
+```
+
+
+## Requirements
+pytorch 1.0.1
+torchvision
+opencv
+hdf5storage
+GitPython
+python-gflags
+
+## Citation
+If you use this code, please cite the following paper.
+```
+@article{kwak2019detecting,
+  title={Detecting the Starting Frame of Actions in Video},
+  author={Kwak, Iljung S and Kriegman, David and Branson, Kristin},
+  journal={arXiv preprint arXiv:1906.03340},
+  year={2019}
+}
+```
