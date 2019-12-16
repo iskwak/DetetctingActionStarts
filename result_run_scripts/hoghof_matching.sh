@@ -11,7 +11,7 @@ VIDEO_DIR=/nrs/branson/kwaki/data/hantman_pruned
 # output directory
 OUT_DIR=/nrs/branson/kwaki/outputs/test2
 
-python load_hungarian_mouse.py \
+python threaded_hungarian_mouse.py \
     --train_file $TRAIN_FILE \
     --test_file  $TEST_FILE\
     --display_dir  $DISPLAY_DIR \
