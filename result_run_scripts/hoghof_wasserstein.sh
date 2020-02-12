@@ -9,7 +9,7 @@ DISPLAY_DIR=data/display_videos
 # VIDEO_DIR=/nrs/branson/kwaki/data/hantman_pruned
 
 # output directory
-OUT_DIR=outputs
+OUT_DIR=outputs/wasserstein
 
 python threaded_hungarian_mouse.py \
     --train_file $TRAIN_FILE \

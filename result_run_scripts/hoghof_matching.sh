@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # location of the hdf5 file used for training/testing
-TRAIN_FILE=/nrs/branson/kwaki/data/20180729_base_hantman/hantman_split_half_M134_train.hdf5
-TEST_FILE=/nrs/branson/kwaki/data/20180729_base_hantman/hantman_split_half_M134_test.hdf5
+TRAIN_FILE=data/hdf5/split_M134_train.hdf5
+TEST_FILE=data/hdf5/split_M134_test.hdf5
 # Directory with web viewable movies
-DISPLAY_DIR=/nrs/branson/kwaki/data/hantman_mp4
+DISPLAY_DIR=data/display_videos
 # Directory with movies for train/test
-VIDEO_DIR=/nrs/branson/kwaki/data/hantman_pruned
+# VIDEO_DIR=/nrs/branson/kwaki/data/hantman_pruned
 
 # output directory
-OUT_DIR=/nrs/branson/kwaki/outputs/test2
+OUT_DIR=outputs/matching
 
 python threaded_hungarian_mouse.py \
     --train_file $TRAIN_FILE \
